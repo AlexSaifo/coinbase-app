@@ -1,0 +1,14 @@
+.servicesSection{
+
+}
+.services{
+    margin: 0 5rem;
+    gap: 10rem;
+}
+.title{
+    font-size: 1.5rem;
+}
+.descrption{
+    font-size: 1rem;
+    line-height: 1.2;
+}

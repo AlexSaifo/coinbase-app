@@ -1,0 +1,32 @@
+.newsLetter{
+    margin: 0 0 8rem 0;
+    background: var(--dark-background);
+    padding: 8rem;
+}
+.send-letter{
+    z-index: 3;
+}
+.input-group {
+    background-color: var(--input-background);
+    padding: 1rem;
+    padding-right: 5rem;
+    border-radius: 0.5rem;
+}
+.input-group input{
+    background-color: transparent;
+    font-size: 1.2rem;
+    outline: none;
+    color: white;
+    border: none;
+}
+.input-group svg{
+    font-size: 1.3rem;
+}
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+    .newsLetter{
+        padding: 2rem;
+    }
+    .input-group{
+        flex-direction: row;
+    }
+}

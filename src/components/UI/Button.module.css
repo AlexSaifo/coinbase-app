@@ -1,0 +1,24 @@
+.button {
+    padding: 0.7rem 1.3rem;
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    flex-direction: row !important;
+}
+
+.subduedBtn {
+    background-color: var(--subdue-button);
+}
+
+.button:active {
+    transform: scale(0.95);
+    opacity: 0.7;
+}
+
+.button:hover {
+    background-color: var(--blue);
+}

@@ -1,0 +1,46 @@
+.footer{
+    margin: 0;
+    padding: 0 5rem;
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+.upper-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.social-icons{
+    margin-top: 2rem;
+}
+.social-icons svg{
+    font-size: 2rem;
+}
+.spacemen{
+    position: absolute;
+    right: 0;
+    top: -24rem;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+
+    .footer{
+        padding: 1rem 2rem;
+    }
+
+    .social-icons {
+      display: none;
+      flex-direction: row;
+    }
+    .upper-footer {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    .spacemen {
+      display: none;
+    }
+    .cards img {
+        width: 80vw;
+      }
+      
+    }

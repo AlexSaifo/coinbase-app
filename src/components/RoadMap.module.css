@@ -1,0 +1,45 @@
+.road{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 4rem;
+}
+.road::-webkit-scrollbar{
+    height: 8px;
+}
+
+.icon{
+    background-color: var(--roadmap-icon);
+    padding: 0.5rem;
+    border-radius: 100%;
+}
+.icon svg{
+    font-size: 2rem;
+}
+.map{
+    min-width: 350px;
+    position: relative;
+}
+.icon::before{
+    content: '';
+    top: 8%;
+    left: 9%;
+    z-index: -1;
+    position: absolute;
+    height: 3px;
+    width: 110%;
+    background-color: white;
+    opacity: 0.5;
+
+}
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+    .road{
+        overflow-x: hidden;
+    }
+    .map{
+        align-items: center;
+    }
+
+    .icon::before{
+        left:0;
+    }
+}

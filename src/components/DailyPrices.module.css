@@ -1,0 +1,31 @@
+.daily-prices {
+    background-color: #ffffff10;
+    border-radius: 1rem;
+    overflow-x: auto;
+    margin: 0 auto;
+    max-width: 90vw;
+}
+
+.header {
+    border-bottom: 1px solid #ffffff10;
+    padding: 2rem;
+}
+
+.header,
+.row {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+}
+
+.data {
+    padding: 1rem 2rem 2rem 2rem;
+}
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+    .container{
+        width: 768px;
+    }
+
+    .name{
+        flex-direction: row !important;
+    }
+}

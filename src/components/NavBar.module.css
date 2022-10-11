@@ -1,0 +1,127 @@
+.nav {
+    margin: 3rem 5rem;
+    position: relative;
+}
+
+.brand h2 {
+    font-size: 2.5rem;
+}
+
+.toggle {
+    display: none;
+}
+
+.links ul {
+    font-weight: bolder;
+}
+
+.links ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.links ul li a {
+    opacity: 0.7;
+    transition: 0.1s ease-in-out;
+}
+
+.links ul li:first-of-type a {
+    opacity: 1;
+}
+
+.links ul li a:hover {
+    opacity: initial;
+}
+
+.toggle {
+    z-index: 6;
+}
+
+.toggle svg {
+    cursor: pointer;
+    font-size: 2rem;
+    color: #2d69fd;
+}
+
+
+
+.sidBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    -webkit-transition: 0.7s ease-out;
+    -moz-transition: 0.7s ease-out;
+    -o-transition: 0.7s ease-out;
+    transition: 0.7s ease-out;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+    .nav {
+        flex-direction: row;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .auth {
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .sidBar {
+        flex-direction: column;
+        position: fixed;
+        background-color: white;
+        top: 0;
+        right: 0;
+        width: 25rem;
+        height: 100vh;
+        gap: 4rem;
+        opacity: 0;
+        transform: translateX(40rem);
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+    }
+
+    .sidBar .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    .sidBar .links ul li a {
+        color: #2d69fd;
+        font-size: 1.5rem;
+    }
+
+    .sidBar .auth {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sidBar .auth button {
+        font-size: 1rem;
+    }
+    .show{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .nav {
+        margin: 1rem;
+        margin-bottom: 3rem;
+    }
+}
