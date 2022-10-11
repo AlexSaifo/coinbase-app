@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/coinbase-app/static/css/main.21b139e8.css",
+    "main.js": "/coinbase-app/static/js/main.89fc3e88.js",
+    "static/media/about.png": "/coinbase-app/static/media/about.6713d5aa6adaddde4f7a.png",
+    "static/media/home.png": "/coinbase-app/static/media/home.a9136be591eabf538074.png",
+    "static/media/spacemen.png": "/coinbase-app/static/media/spacemen.2b581b08cad1126d0e93.png",
+    "static/media/card.png": "/coinbase-app/static/media/card.f9017bf395d5cc4917d5.png",
+    "static/media/signupBackground.png": "/coinbase-app/static/media/signupBackground.a9042bba874ddb162045.png",
+    "static/media/cards.png": "/coinbase-app/static/media/cards.c40e6d333024dffc029c.png",
+    "index.html": "/coinbase-app/index.html",
+    "main.21b139e8.css.map": "/coinbase-app/static/css/main.21b139e8.css.map",
+    "main.89fc3e88.js.map": "/coinbase-app/static/js/main.89fc3e88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21b139e8.css",
+    "static/js/main.89fc3e88.js"
+  ]
+}
